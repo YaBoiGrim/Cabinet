@@ -14,7 +14,7 @@ ActiveRecord::Schema.define(version: 2019_12_07_025204) do
 
   create_table "docs", force: :cascade do |t|
     t.string "title"
-    t.text "context"
+    t.text "content"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
